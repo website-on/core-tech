@@ -606,6 +606,182 @@ a {
     transform: scale(1.1);
 }
 
+/* Fixed Phone Bubble */
+.phone-bubble {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: var(--primary);
+    color: var(--dark);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    box-shadow: 0 10px 20px rgba(251, 169, 25, 0.3);
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.phone-bubble:hover {
+    transform: scale(1.1);
+    background-color: var(--primary-hover);
+    color: var(--white);
+}
+
+/* Utility Helpers */
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+/* ---- NEW INNER PAGE MODERNIZE DESIGN ---- */
+.inner-hero-modern {
+    position: relative;
+    padding: 180px 0 120px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+}
+
+.inner-hero-modern::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(26, 32, 44, 0.95), rgba(26, 32, 44, 0.4));
+    z-index: 1;
+}
+
+.inner-hero-modern .container {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.inner-hero-modern .badge {
+    background-color: var(--primary);
+    color: var(--dark);
+    margin-bottom: 20px;
+}
+
+.inner-hero-modern h1 {
+    font-size: 3.8rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+    line-height: 1.25;
+}
+
+.inner-hero-modern p {
+    font-size: 1.25rem;
+    line-height: 1.9;
+    color: #e2e8f0;
+}
+
+.service-overview {
+    padding: 100px 0;
+    background: var(--white);
+}
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.overview-text h2 {
+    font-size: 2.3rem;
+    color: var(--dark);
+    margin-bottom: 25px;
+    position: relative;
+    padding-right: 25px;
+}
+
+.overview-text h2::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 5px;
+    bottom: 5px;
+    width: 6px;
+    background-color: var(--primary);
+    border-radius: 4px;
+}
+
+.overview-text p {
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: var(--text-body);
+    margin-bottom: 20px;
+}
+
+.overview-img img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.service-features-cards {
+    padding: 100px 0;
+    background: var(--light-grey);
+}
+
+.service-features-cards .section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.service-features-cards .section-header h2 {
+    font-size: 2.5rem;
+    color: var(--dark);
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.feature-card {
+    background: var(--white);
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.03);
+    border-right: 4px solid var(--primary);
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.feature-card i {
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    font-size: 1.4rem;
+    color: var(--dark);
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    color: var(--text-body);
+    line-height: 1.8;
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
     .hero-split {
@@ -622,6 +798,19 @@ a {
     }
 
     .features-row {
+        grid-template-columns: 1fr;
+    }
+
+    .inner-hero-modern {
+        padding: 120px 0 80px;
+    }
+
+    .inner-hero-modern h1 {
+        font-size: 2.8rem;
+    }
+
+    .overview-grid,
+    .cards-grid {
         grid-template-columns: 1fr;
     }
 
