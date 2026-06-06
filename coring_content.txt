@@ -1,0 +1,53 @@
+<!-- Inner Hero Modern -->
+    <section class="inner-hero-modern"
+        style="background-image: url('https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=1920');">
+        <div class="container">
+            <span class="badge">خدمات الكور والتخريم</span>
+            <h1>صنايعي كور وتخريم خرسانة بأقل سعر وأعلى جودة في مصر</h1>
+            <p>لو بدور على صنايعي كور وتخريم خرسانة شاطر وسعره على الإيد، Core-Tech بتوفرلك أسرع وأدق خدمات عمل الفتحات الدائرية في الخرسانة المسلحة والطوب بأحدث ماكينات الكور الألمانية، من غير تكسير، ومن غير أي اهتزاز أو شروخ في السقف أو الحيطة، وبأقل تكلفة في السوق.</p>
+        </div>
+    </section>
+
+    <!-- Service Overview -->
+    <section class="service-overview">
+        <div class="container overview-grid">
+            <div class="overview-text">
+                <h2>تطبيقات الخدمة (بنعمل إيه؟):</h2>
+                <ul class="features-list">
+                    <li><strong>فتحات التهوية والشفاطات:</strong> عمل فتحات بمقاسات مظبوطة ع الشعرة لشفاطات المطابخ والحمامات (الشفاط الطارد أو المروحة) وفتحات تهوية الغاز الطبيعي والمداخن.</li>
+                    <li><strong>تأسيس السباكة والتكييف:</strong> عمل فتحات مواسير الصرف الصحي، التغذية، وتمديدات التكييف المركزي والـ Split.</li>
+                    <li><strong>الكهرباء والحريق:</strong> فتح مسارات خراطيم الكهرباء وكابلات الباور وأنظمة إطفاء الحريق.</li>
+                    <li><strong>اختبارات الخرسانة:</strong> أخذ عينات الكور (Concrete Cores) للمكاتب الاستشارية ومعامل اختبار جودة الخرسانة.</li>
+                </ul>
+            </div>
+            <div class="overview-img">
+                <img src="images/core_drilling.png" alt="آلة كور تخريم الخرسانة">
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Features Cards -->
+    <section class="service-features-cards">
+        <div class="container">
+            <div class="section-header">
+                <h2>ليه تشتغل معانا؟</h2>
+            </div>
+            <div class="cards-grid">
+                <div class="feature-card">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h3>أقل سعر في مصر</h3>
+                    <p>بنقدم عروض أسعار تنافسية ومناسبة للمقاولين وأصحاب الشقق والمحلات.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>شغل نضيف وع السكين</h3>
+                    <p>الفتحة بتطلع دائرية ومستوية تماماً مش محتاجة ترميم وراها، وبنستخدم المية لمنع العفرة والتراب.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-ruler-combined"></i>
+                    <h3>كل المقاسات موجودة</h3>
+                    <p>فتحات بأقطار تبدأ من 1 بوصة وحتى الأقطار الكبيرة جداً للمشروعات، وبأي عمق مطلوب في أعتى خرسانة مسلحة بحديد.</p>
+                </div>
+            </div>
+        </div>
+    </section>
